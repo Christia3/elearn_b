@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0d1b2a; /* dark blue background */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #1b263b; /* navy blue card */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #415a77;
+    width: 350px;
+    text-align: center;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+input, select {
+    background: #415a77; /* medium blue inputs */
+    color: #fff;
+}
+
+button {
+    background: #1f7a8c; /* teal button */
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #3aa17e;
+}
+
+a {
+    color: #90e0ef;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.course-card {
+    background: #415a77; /* medium blue card */
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.course-card h4 {
+    margin: 0 0 10px 0;
+    color: #90e0ef; /* light blue heading */
+}
+
+.course-card p {
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    background: #1f7a8c; /* teal button */
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #3aa17e;
+}
+
+.btn-logout {
+    display: block;
+    margin-top: 30px;
+    background: #e63946; /* red logout button */
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-logout:hover {
+    background: #ff3d4f;
+}
+
+.exercise-card {
+    background: #1b263b; /* dark card */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.exercise-card p {
+    color: #90e0ef; /* light blue question */
+}
+
+.exercise-card label {
+    color: #fff;
+}
+
+button {
+    background: #1f7a8c;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3aa17e;
+}
+
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.grades-table th, .grades-table td {
+    padding: 10px;
+    border: 1px solid #415a77;
+    text-align: left;
+}
+
+.grades-table th {
+    background: #1f7a8c;
+    color: #fff;
+}
+
+.grades-table td {
+    background: #1b263b;
+    color: #fff;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background: #415a77;
+    color: #fff;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: #415a77;
+    color: #fff;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #90e0ef;
+}
+
+/* ==================== Navbar ==================== */
+.navbar {
+    background: #1b263b;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar .logo a {
+    color: #90e0ef;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .nav-links li a {
+    color: #caf0f8;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+.navbar .nav-links li a:hover {
+    background: #3aa17e;
+    color: #fff;
+}
+
+.btn-logout-small {
+    background: #d00000;
+    padding: 5px 10px;
+}
+
+.btn-logout-small:hover {
+    background: #a30000;
+}
